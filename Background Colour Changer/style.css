@@ -1,0 +1,61 @@
+* {
+  font-family: "Roboto Condensed", sans-serif;
+}
+.title {
+  text-align: center;
+  margin: 5%;
+  font-size: 30px;
+}
+.box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 10px;
+  min-height: 30vh;
+}
+.button {
+  margin: 2%;
+  width: 80px;
+  height: 80px;
+  background-color: white;
+  border-radius: 10px;
+  border: 2px solid black;
+  display: inline-flex;
+  cursor: pointer;
+}
+#white
+{
+    background-color: white;
+}
+#blue
+{
+    background-color: blue;
+}
+#grey
+{
+    background-color: gray;
+}
+#yellow
+{
+    background-color: yellow;
+}
+#red
+{
+    background-color: red;
+}
+#green
+{
+    background-color: green;
+}
+#try-click
+{
+    text-align: center;
+    word-spacing: 2px;
+    font-size: 25px;
+}
+#change-bg
+{
+    display: block;
+    margin-top: 20px;
+}

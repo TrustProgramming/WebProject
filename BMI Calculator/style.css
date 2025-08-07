@@ -1,0 +1,56 @@
+* {
+  font-family: "Roboto Condensed", sans-serif;
+}
+.calculator {
+  background-color: gray;
+}
+.heading {
+  font-size: 30px;
+  margin-top: 30px;
+  text-align: center;
+  font-family: "Roboto Condensed", sans-serif;
+}
+label {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  font-size: 20px;
+  margin-left: 40%;
+  margin-top: 20px;
+}
+input {
+  width: 140px;
+  height: 30px;
+  border-radius: 5px;
+  border: 1px solid black;
+}
+button {
+  background-color: white;
+  border-radius: 5px;
+  width: 140px;
+  height: 50px;
+  cursor: pointer;
+    margin-left: 45%;
+  margin-top: 20px;
+}
+#calculate {
+  font-size: 25px;
+  color: rgb(59, 59, 59);
+}
+#result {
+  text-align: center;
+  margin-top: 20px;
+  font-size: 20px;
+  font-weight: bold;
+}
+.guide {
+  width: 300px;
+  margin: 40px auto;          
+  text-align: center;
+  padding: 20px;
+  line-height: 1.6;
+}
+.BMI {
+    border: 4px solid black;
+    box-shadow: 2px 2px 8px black;
+}
